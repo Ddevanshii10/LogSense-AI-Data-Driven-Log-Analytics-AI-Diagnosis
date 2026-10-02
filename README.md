@@ -10,19 +10,10 @@ The project combines **real-time data ingestion, distributed processing, Delta L
 
 ## 🏗️ Project Architecture
 
-```mermaid
-flowchart TD
-    A[OpenStack Log Files] --> B[Kafka Producers]
-    B --> C[Kafka / Aiven Kafka]
-    C --> D[Bronze Layer]
-    D --> E[Silver Layer]
-    E --> F[Gold Analytics Layer]
-    F --> G[Machine Learning]
-    F --> H[AI Intelligence Layer]
-    G --> I[Service Health & Anomaly Insights]
-    H --> I
-    I --> J[Apache Superset / Web Dashboard]
-```
+<img width="2752" height="1536" alt="Gemini_Generated_Image_le0sile0sile0sil" src="https://github.com/user-attachments/assets/039bbb03-1ba6-412d-bde0-f27acfb455c9" />
+
+---
+
 ## 🧰 Tech Stack
 
 | Category | Technologies & Tools |
