@@ -14,6 +14,54 @@ The project combines **real-time data ingestion, distributed processing, Delta L
 
 ---
 
+## 🔄 Real-Time Data Ingestion & Streaming
+
+OpenStack log telemetry is continuously ingested and processed via Kafka data streams.
+
+<div align="center">
+  <img src="docs/images/OpenStack%20Data%20Stream%20snap1.png" width="45%" alt="OpenStack Data Stream 1" />
+  <img src="docs/images/OpenStack%20Data%20Stream%20snap2.png" width="45%" alt="OpenStack Data Stream 2" />
+</div>
+
+---
+
+## 🏗️ Medallion Architecture & Transformation
+
+The pipeline transforms raw logs across Bronze, Silver, and Gold layers to ensure reliable data quality and downstream analytical readiness.
+
+### Medallion Layer Overview
+<div align="center">
+  <img src="docs/images/mediallian_snap1.png" width="45%" alt="Medallion Architecture Overview" />
+  <img src="docs/images/medallian_snap2.png" width="45%" alt="Medallion Pipeline Flow" />
+</div>
+
+### Gold Layer Storage & Databricks Execution
+<div align="center">
+  <img src="docs/images/notebooks_snap.png" width="48%" alt="Databricks Notebook Execution" />
+  <img src="docs/images/gold_snap.png" width="48%" alt="Gold Layer Storage Schema" />
+</div>
+
+---
+
+## 🖥️ UI Dashboard & Root Cause Analysis
+
+Interactive user interface displaying real-time log analytics, anomaly detection metrics, and automated "Why Analysis" root-cause insights.
+
+### Platform Dashboard
+<div align="center">
+  <img src="docs/images/UI%20snap%201.png" width="30%" alt="UI Dashboard View 1" />
+  <img src="docs/images/UI%20snap%202.png" width="30%" alt="UI Dashboard View 2" />
+  <img src="docs/images/UI%20snap%203.png" width="30%" alt="UI Dashboard View 3" />
+</div>
+
+### AI-Powered Root Cause ("Why") Analysis
+<div align="center">
+  <img src="docs/images/why%20analysis%20snap.png" width="48%" alt="Why Analysis Overview" />
+  <img src="docs/images/why%20analysis%20snap%201.png" width="48%" alt="Why Analysis Detail" />
+</div>
+
+---
+
 ## 🧰 Tech Stack
 
 | Category | Technologies & Tools |
